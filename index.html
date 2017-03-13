@@ -14,7 +14,7 @@
 <body>
   <h1>Debug Layout</h1>
 <p>This is a css layout-debugging bookmarklet. It adds a colored border based on nesting depth to all elements. It will also add flags if you made mistakes like put in inline styles, forgot an alt on an image, left the alt blank, etc. </p>
-<p>Drag this boorkmaklet to your bookmarkes bar:</p>
+<p>Drag this bookmarklet to your bookmarkes bar:</p>
 <a  style="display: inline-block; background: dodgerblue; color: #fff; border-radius: 2px; padding: 5px 12px; text-decoration: none; font-size: 14px;" href="javascript:(function(d,i,l){l=d.getElementById(i);if(l){l.parentNode.removeChild(l);return;}l=d.createElement('link');l.id=i;l.rel='stylesheet';l.type='text/css';l.href='//dbox.github.io/debug-layout/debug-layout.css';d.getElementsByTagName('head')[0].appendChild(l);}(document,'debugLayout'))" class="install">Debug Layout</a>
   
   
